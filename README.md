@@ -12,7 +12,6 @@
 ## 脚本说明
 | 脚本文件 | 功能描述 |
 | :--- | :--- |
-| `generate_data.py` | 基于配置模型生成符合无标度、互惠性与动态密度趋势的年度拓扑（如已有真实数据可替换此脚本为数据读取）。 |
 | `tergm_estimation.py` | 调用 R 的 `btergm` 包，对时序网络估计 TERGM 参数（模型公式：`edges + mutual + gwesp`），输出系数与显著性。 |
 | `cascade_simulation.py` | 实现改进的 Motter‑Lai 算法（算法1），模拟基于介数中心性的定点攻击，追踪最大连通分量（LCC）和全局效率（E）的衰减。 |
 
